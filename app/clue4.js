@@ -12,6 +12,22 @@
 
 function daysPosition(day, offset) {
   // TODO YOUR CODE HERE
+
+  let output
+  switch (day) {
+    case 'sunday':
+      output = 1
+      break;
+    case 'monday':
+      output = 2
+      break;
+    case 'tuesday':
+      output = 3
+      break;
+    case 'wednesday':
+      output = 4
+      break
+  }
 }
 
 
